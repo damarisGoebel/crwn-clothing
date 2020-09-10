@@ -6,7 +6,7 @@ import HomePage from './homepage.component';
 function App() {
   return (
     <div>
-    {/* Hello Stranger Damaris*/}
+    {/* Hello Stranger Damaris Why can't I push*/}
 <HomePage/>
     </div>
   );
