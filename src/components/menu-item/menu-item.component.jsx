@@ -3,6 +3,7 @@ import { withRouter } from 'react-router-dom';
 
 import './menu-item.styles.scss';
 
+// by wrapping the component we have now access to history 
 const MenuItem = ({ title, imageUrl, size, history, linkUrl, match }) => (
   <div
     className={`${size} menu-item`}
